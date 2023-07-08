@@ -1,0 +1,29 @@
+.forms{
+    border: 2px solid black;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-bottom: 20px;
+    text-align: center;
+    text-align: justify;
+    background-color: #ea247d;
+    transition: transform 0.2s ease-in-out;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.reg{
+    text-align: center;
+    
+    
+}
+.outer{
+    border: 1cm solid rgb(61, 3, 36);
+}
+.forms:hover{
+    transform: scale(1.2);
+}
